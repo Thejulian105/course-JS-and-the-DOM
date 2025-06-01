@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
+
+main {
+  width: 400%;
+  height: ;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.para {
+  color: hsl(0, 1%, 44%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.heading {
+  line-height: 30px;
+  margin-top: 1rem;
+}
+
+.prepare {
+  height: 180px;
+  width: 100%;
+  background-color: hsl(31, 86%, 94%);
+  padding: 20px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.prepare h4 {
+  color: hsl(332, 53%, 18%);
+  margin-bottom: 1rem;
+}
+
+.prepare ul {
+  margin-left: 1.5rem;
+  line-height: 2rem;
+  gap: 1rem;
+}
+
+.prep {
+  color: black;
+  font-weight: bold;
+}
+
+.my-ingredients {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid hsl(0, 4%, 90%);
+}
+
+.my-ingredients p {
+  font-size: 24px;
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients-list {
+  margin-top: 10px;
+  margin-left: 23px;
+  line-height: 2rem;
+  margin-bottom: 25px;
+}
+
+.instruction {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid hsl(0, 4%, 90%);
+}
+
+.instruction p {
+  font-size: 24px;
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+.instruction-list {
+  margin-top: 10px;
+  margin-left: 23px;
+  line-height: 2rem;
+  margin-bottom: 25px;
+}
+
+.nutrition h2 {
+  color: rgb(148, 35, 35);
+}
+
+.nutrition {
+  padding: 10px;
+}
+
+.nutrition p {
+  padding: .5rem;
+}
+
+table {
+  width: 50%;
+  margin-left: 2rem;
+  padding: .5rem;
+}
+
+tr {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+
+.val {
+  color: rgb(119, 28, 28);
+  font-weight: bold;
+}
+
+@media (width < 400px) {
+  body {
+    padding: 0;
+  }  
+}
